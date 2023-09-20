@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="ru" class="h-100">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <script src="./js/scripts.js" defer></script>
+    <title></title>
+  </head>
+
+  <body>
+    <header class="header">
+      <div class="header__text">
+        🇿🇦 SPECIAL OFFER + FREE DELIVERY 2-4 DAYS IN SA 🇿🇦
+      </div>
+
+      <div class="under-header">
+        <img
+          src="./img/cushion_logo.png"
+          alt="cushion"
+          class="under-header__logo"
+        />
+        <p class="under-header__text">orthopedic slippers</p>
+      </div>
+    </header>
+    <div class="banner">
+      <div class="banner__limited">
+        <p class="banner__limited-text">Limited offer</p>
+        <p id="timer" class="banner__timer"></p>
+      </div>
+      <div class="banner__price">
+        <p class="banner__original-price">R 250.00</p>
+        <p class="banner__discount-price">R 160.00</p>
+      </div>
+    </div>
+    <main class="container">
+      <div class="container__info">
+        <p class="container__review">Excellent 4.8/5</p>
+        <img
+          src="./img/trustpilot.svg"
+          alt="trustpilot"
+          class="container__trustpilot"
+        />
+        <p class="container__best-selling">best selling</p>
+      </div>
+
+      <div class="container__slider slider">
+        <p class="slider__title">Orthopedic Slippers</p>
+        <div class="slider__main-image">
+          <img src="./img/black-slipper.png" alt="Main Image" />
+        </div>
+        <div class="slider__thumbnails">
+          <img
+            src="./img/black-slipper.png"
+            alt="black slipper"
+            class="slider__thumbnail"
+          />
+          <img
+            src="./img/orange-slipper.png"
+            alt="orange slipper"
+            class="slider__thumbnail"
+          />
+          <img
+            src="./img/pink-slipper.png"
+            alt="pink slipper"
+            class="slider__thumbnail"
+          />
+          <img
+            src="./img/yellow-slipper.png"
+            alt="yellow slipper"
+            class="slider__thumbnail"
+          />
+        </div>
+      </div>
+
+      <div class="container__product-info">
+        <p class="container__text">
+          Fast Delivery: <span>2-4 days from SA 🇿🇦</span>
+        </p>
+        <p class="container__text">
+          In Stock: <span>Shipping from Johannesburg 🇿🇦</span>
+        </p>
+      </div>
+      <div class="container__rating-block">
+        <div class="container__stars">
+          <div class="container__star"></div>
+          <div class="container__star"></div>
+          <div class="container__star"></div>
+          <div class="container__star"></div>
+          <div class="container__star"></div>
+        </div>
+        <p class="container__rating-count">(10)</p>
+      </div>
+
+      <form class="order-form">
+        <div class="order-form__wrapper">
+          <label
+            class="order-form__text"
+            class="order-form__select"
+            for="color-select"
+            >Color:</label
+          >
+          <select class="order-form__select" id="color-select" name="color">
+            <option value="./img/black-slipper.png">Black</option>
+            <option value="./img/orange-slipper.png">Orange</option>
+            <option value="./img/pink-slipper.png">Pink</option>
+            <option value="./img/yellow-slipper.png">Yellow</option>
+          </select>
+        </div>
+
+        <div class="order-form__wrapper">
+          <label class="order-form__text" for="size-select">Size:</label>
+          <select class="order-form__select" id="size-select" name="size">
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+          </select>
+        </div>
+      </form>
+      <a class="buy-button" href="https://www.youtube.com">BUY NOW</a>
+    </main>
+  </body>
+</html>
